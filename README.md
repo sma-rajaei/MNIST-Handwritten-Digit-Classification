@@ -11,7 +11,7 @@ where y is the predicted digit class.
 
 # DataSet
 
-<img width="655" height="325" alt="image" src="https://github.com/user-attachments/assets/28da126e-8554-41b1-8771-269da2a75f9f" />
+<img width="655" height="325" alt="image" src="https://github.com/user-attachments/assets/64e27177-0190-46ca-a090-46f92978b01d" />
 
 
 The MNIST (Modified National Institute of Standards and Technology) dataset is one of the most widely used benchmark datasets in the field of computer vision and deep learning.
