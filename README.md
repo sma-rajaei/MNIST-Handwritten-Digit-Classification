@@ -154,7 +154,7 @@ The Neural network structure:
 | Output | 10 | Probability of belonging to every Digit class (0-9) |
 
 
-**We don't use Softmax function at last layer, because it is automatically applies in CrossEntropy Function for Calculating loss**
+**We put Softmax function at last layer. This is because it's applied in The CrossEntropy Function for Calculating loss**
 
 # Train and test the Model
 
