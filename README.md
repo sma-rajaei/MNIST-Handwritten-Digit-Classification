@@ -10,7 +10,10 @@ where y is the predicted digit class.
 
 
 # DataSet
-[picturesss]
+
+<img width="655" height="325" alt="image" src="https://github.com/user-attachments/assets/28da126e-8554-41b1-8771-269da2a75f9f" />
+
+
 The MNIST (Modified National Institute of Standards and Technology) dataset is one of the most widely used benchmark datasets in the field of computer vision and deep learning.
 It consists of handwritten digit images collected from a large number of people. The main objective is to train a machine learning model that can automatically recognize digits from images. Detailed dataset information in the table below.
 
@@ -138,8 +141,10 @@ testLoader = DataLoader(testDataset,batch_size=64,shuffle=False)
 ## Model
 
 
-structure of neural network:
-[pic2]
+The Neural network structure:
+
+<img width="1408" height="768" alt="pic2" src="https://github.com/user-attachments/assets/eef7b013-c971-4293-a6d9-189f995612f3" />
+
 
 | Layer | Output Size | Function |
 |------|-------------|----------|
@@ -178,20 +183,33 @@ epoch 5, Avg Loss : 1.4462757629353291
 
 Train Accuracy is high, which indicates that **the model doesn't have Underfitting** and Test Acuuracy is not lower which shows that **the model doesn't have Overfitting**
 
+**However, the model performance could be further improved by applying techniques such as L2 regularization, using learning rate schedulers, experimenting with different learning rates, and modifying the network architecture**
+
 **Confusion Matrix** : 
-[pic3]
+
+<img width="517" height="433" alt="pic3" src="https://github.com/user-attachments/assets/e689577f-3d72-4f6e-bf97-b2fbee4b1df4" />
+
+
 
 ## seeing few images of wrong predictions
-[pic4]
+
+<img width="1415" height="303" alt="pic4" src="https://github.com/user-attachments/assets/9ea12567-359a-4bb6-953a-00cf2ef32f4f" />
+
+
+
 
 # Inference
 
 On the last part, we test model with datas that are not even in the testSet.
 This is an image of a handwritten 7 drawn using Microsoft Paint and resized to 28×28 pixels.
 
-[pic5]
+picture:
+<img width="590" height="432" alt="download" src="https://github.com/user-attachments/assets/7778c7a3-ffa2-462d-8227-0e799a344d58" />
 
-[pic6]
+result:
+<img width="389" height="410" alt="pic6" src="https://github.com/user-attachments/assets/531de425-c905-423c-8504-79cc8c8af544" />
+
+
 
 
 
