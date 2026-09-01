@@ -204,9 +204,14 @@ On the last part, we test model with datas that are not even in the testSet.
 This is an image of a handwritten 7 drawn using Microsoft Paint and resized to 28×28 pixels.
 
 picture:
+
+
 <img width="590" height="432" alt="download" src="https://github.com/user-attachments/assets/7778c7a3-ffa2-462d-8227-0e799a344d58" />
 
+
 result:
+
+
 <img width="389" height="410" alt="pic6" src="https://github.com/user-attachments/assets/531de425-c905-423c-8504-79cc8c8af544" />
 
 
