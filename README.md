@@ -84,12 +84,13 @@ Unlike the fully connected model, where the image is flattened into a one-dimens
 ## Learning Curves
 
 **Fully Connected Neural Network:**
+
 <img width="545" height="489" alt="image" src="https://github.com/user-attachments/assets/72a27a85-5bb2-44ac-92cf-8d110231250b" />
 
 
 **Convolutional Neural Network:**
-<img width="531" height="483" alt="image" src="https://github.com/user-attachments/assets/053888db-4688-40dc-9bb9-5389418d0e4b" />
 
+<img width="531" height="483" alt="image" src="https://github.com/user-attachments/assets/053888db-4688-40dc-9bb9-5389418d0e4b" />
 
 ## Confusion Matrix
 
