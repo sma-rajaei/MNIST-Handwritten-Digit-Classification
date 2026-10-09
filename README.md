@@ -6,6 +6,9 @@ This project investigates the impact of architectural design on handwritten digi
 A fully connected neural network is compared with a convolutional neural network to analyze how exploiting spatial information affects image classification performance.
 The experiments are conducted under the same training conditions, and models are evaluated using classification accuracy, loss curves, and error analysis.
 
+<img width="634" height="315" alt="image" src="https://github.com/user-attachments/assets/db7cace1-28f3-4dde-a986-32ce206cb690" />
+
+
 ## Models
 
 ### 1. Fully Connected Neural Network (Baseline)
@@ -43,12 +46,12 @@ Architecture:
 ```
 Input (1×28×28)
 
-Conv(32) → BN → ReLU
-Conv(32) → BN → ReLU
+Conv(32) → Batch normalization → ReLU
+Conv(32) → Batch normalization → ReLU
 MaxPool
 
-Conv(64) → BN → ReLU
-Conv(64) → BN → ReLU
+Conv(64) → Batch normalization → ReLU
+Conv(64) → Batch normalization → ReLU
 MaxPool
 
 Flatten
@@ -74,11 +77,8 @@ The final performance comparison **in 10 Epochs** is summarized below:
 
 The CNN achieved a **1.40% improvement in classification accuracy** compared with the fully connected baseline.
 
-
 The fully connected neural network achieved a strong baseline performance with an accuracy of 98.23%. This demonstrates that dense architectures are capable of learning discriminative representations even when applied directly to image data.
-
 However, the CNN significantly improved the classification performance, reaching an accuracy of 99.63%. The improvement is mainly attributed to the ability of convolutional layers to preserve spatial information and automatically learn hierarchical visual features.
-
 Unlike the fully connected model, where the image is flattened into a one-dimensional feature vector, the CNN processes the image structure through local receptive fields and parameter sharing. This allows the model to better capture important patterns such as edges, curves, and digit-specific stroke structures.
 
 ## Learning Curves
@@ -94,14 +94,11 @@ Unlike the fully connected model, where the image is flattened into a one-dimens
 ## Confusion Matrix
 
 **Fully Connected Neural Network:**
+
 <img width="507" height="451" alt="image" src="https://github.com/user-attachments/assets/2c18d0f6-60c5-47b8-83d1-b3be141df694" />
 
-
 **Convolutional Neural Network:**
+
 <img width="505" height="456" alt="image" src="https://github.com/user-attachments/assets/bd068fcb-4b56-4b10-ba1c-6e50120ba538" />
-
-
-## Performance Comparison
-
 
 
